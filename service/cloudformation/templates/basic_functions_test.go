@@ -1,9 +1,9 @@
-package template_test
+package templates_test
 
 import (
 	"testing"
 
-	. "github.com/aws/aws-sdk-go/service/cloudformation/template"
+	. "github.com/aws/aws-sdk-go/service/cloudformation/templates"
 )
 
 func TestFnBase64(t *testing.T) {

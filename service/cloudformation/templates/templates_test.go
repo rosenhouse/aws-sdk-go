@@ -1,4 +1,4 @@
-package template_test
+package templates_test
 
 import (
 	"encoding/json"
@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/aws/aws-sdk-go/awstesting"
-	. "github.com/aws/aws-sdk-go/service/cloudformation/template"
+	. "github.com/aws/aws-sdk-go/service/cloudformation/templates"
 )
 
 func TestParameterStringify(t *testing.T) {
